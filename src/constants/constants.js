@@ -1,10 +1,10 @@
 export const projects = [
   {
     title: ' NextAd',
-    description: "NextAd is a commercial Software as a Service (SaaS) application designed to streamline the process of creating dynamic, responsive landing pages for small businesses. Leveraging the power of Next.js, Node.js, MySQL, and Firebase, the platform provides users with an intuitive interface and a set of robust tools for designing, deploying, and managing high-converting landing pages.",
+    description: "NextAd is a commercial Software as a Service (SaaS) application designed to streamline the process of creating dynamic, responsive landing pages for small businesses. Leveraging the power of Next.js, Node.js, MySQL, and Firebase, the platform provides users with an intuitive interface and a set of robust tools for designing, deploying, and managing high-converting landing pages. ",
       image: '/images/NextAd.png',
-      tags: ['MySql', 'Express', 'React', 'Node','NextJs'],
-    source: 'access will be given on demand ',
+      tags: ['NextJs','React', 'Node','MySql', 'Express', ],
+    source: '',
     visit: '',
     id: 0,
   },
@@ -12,7 +12,7 @@ export const projects = [
     title: 'Happily Ever After',
     description:"Happily Ever After is a web application that helps you manage your wedding preparations. It allows you to create and manage a to-do list, keep track of your guests, and send them emails. The app also includes a feature that allows guests to upload photos using a QR code.",
     image: '/images/happily ever after.png',
-    tags: ['React', 'JavaScript','Express','MongoDB','Node'],
+    tags: ['React','Node', 'JavaScript','Express','MongoDB'],
     source: 'https://github.com/MiriFurman1/Happily-Ever-After',
     visit: 'https://happily-ever-after.onrender.com/',
     id: 1,
@@ -30,9 +30,10 @@ export const projects = [
 ];
 
 export const TimeLineData = [
-  { year: 2017, text: 'Started my journey', },
-  { year: 2018, text: 'Worked as a freelance developer', },
-  { year: 2019, text: 'Founded JavaScript Mastery', },
-  { year: 2020, text: 'Shared my projects with the world', },
-  { year: 2021, text: 'Started my own platform', },
+  { year: 2020, text: 'Finished my degree in Chemical Engineering at Ben Gurion University ', },
+  { year: 2020, text: 'Started working as a chemical analyst', },
+  { year: 2022, text: 'Started exploring programming', },
+  { year: 2023, text: 'Graduated from Appleseeds Fullstack Bootcamp', },
+  { year: 2023, text: 'Interned at SayVu technologies', },
+  { year: 2023, text: 'Looking for my next challenge', },
 ];
