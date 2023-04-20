@@ -1,4 +1,5 @@
 <h1>Portfolio Site NextJs</h1>
+<img src="public/images/Portfolio.png" height="500px">
 <p>This is my personal portfolio site built with Next.js, React Icons and Styled Components. The site showcases some of my recent projects.</p>
 <h2>Live Demo</h2>
 <p>You can check out the live demo of the site <a href="https://portfolio-next-js-zeta.vercel.app/">here</a>.</p>
