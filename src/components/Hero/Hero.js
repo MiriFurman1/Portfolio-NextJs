@@ -4,7 +4,9 @@ import { Section, SectionText, SectionTitle } from '../../styles/GlobalComponent
 import Button from '../../styles/GlobalComponents/Button';
 import { LeftSection } from './HeroStyles';
 
-const Hero = (props) => (
+const Hero = (props) => {
+
+  return(
   <Section row nopadding>
     <LeftSection>
       <SectionTitle main center>
@@ -14,9 +16,11 @@ const Hero = (props) => (
         Enthusiastic fullstack developer skilled in building dynamic <br />
         and responsive web applications using the latest technologies  <br /> and best practices.
       </SectionText>
-      <Button href="#projects">Learn More</Button>
+      <Button>
+      <a href='/Miri_Furman_resume.pdf' download>Download my CV</a>
+      </Button>
     </LeftSection>
   </Section>
-);
+)};
 
 export default Hero;

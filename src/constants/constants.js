@@ -26,7 +26,15 @@ export const projects = [
     visit: 'https://happy-pet-app.netlify.app/',
     id: 2,
   },
-
+  {
+    title: 'Tic Tac Toe',
+    description: "This project is a simple implementation of the classic Tic Tac Toe game using React. The game allows two players to play against each other on a 3x3 board with a fun twist - the 'X' symbol is represented by a cat and the 'O' symbol is represented by a dog!",
+      image: '/images/tic tac toe.png',
+      tags: ['React', 'JavaScript'],
+    source: 'https://github.com/MiriFurman1/Tic-Tac-Toe',
+    visit: 'https://tic-tac-toe-miri.netlify.app/',
+    id: 3,
+  },
 ];
 
 export const TimeLineData = [
@@ -36,4 +44,11 @@ export const TimeLineData = [
   { year: 2023, text: 'Graduated from Appleseeds Fullstack Bootcamp', },
   { year: 2023, text: 'Interned at SayVu technologies', },
   { year: 2023, text: 'Looking for my next challenge', },
+];
+
+export const AccomplishmentsData = [
+  { number: 20, text: ' Projects'},
+  { number: 350, text: 'Contributions in github', },
+  { number: 1500, text: 'Linkedin connections', },
+  { number: 10000, text: 'Motivation', }
 ];
