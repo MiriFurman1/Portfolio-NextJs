@@ -38,16 +38,16 @@ export const projects = [
 ];
 
 export const TimeLineData = [
-  { year: 2020, text: 'Finished my degree in Chemical Engineering at Ben Gurion University ', },
-  { year: 2020, text: 'Started working as a chemical analyst', },
-  { year: 2022, text: 'Started exploring programming', },
-  { year: 2023, text: 'Graduated from Appleseeds Fullstack Bootcamp', },
-  { year: 2023, text: 'Interned at SayVu technologies', },
-  { year: 2023, text: 'Looking for my next challenge', },
+  { year: 2020, text: 'Finished my degree in Chemical Engineering at Ben Gurion University ',id: 0 },
+  { year: 2020, text: 'Started working as a chemical analyst',id: 1},
+  { year: 2022, text: 'Started exploring programming', id: 2},
+  { year: 2023, text: 'Graduated from Appleseeds Fullstack Bootcamp', id: 3},
+  { year: 2023, text: 'Interned at SayVu technologies', id: 4},
+  { year: 2023, text: 'Looking for my next challenge', id: 5},
 ];
 
 export const AccomplishmentsData = [
-  { number: 20, text: ' Projects'},
+  { number: 25, text: ' Projects'},
   { number: 350, text: 'Contributions in github', },
   { number: 1500, text: 'Linkedin connections', },
   { number: 10000, text: 'Motivation', }
