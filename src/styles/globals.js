@@ -20,6 +20,20 @@ const GlobalStyles = createGlobalStyle`
     background: ${props => props.theme.colors.background1};
     color: ${props => props.theme.colors.primary1};
     cursor: default;
+    background: linear-gradient(334deg, #5460ab, #1d083a, #ac29d6);
+	background-size: 180% 180%;
+	animation: gradient-animation 6s ease infinite;
+    @keyframes gradient-animation {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
 
   }
   h1,h2,h3,h4,h5,h6,button {

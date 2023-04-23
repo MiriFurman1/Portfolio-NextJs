@@ -3,9 +3,10 @@ import styled from 'styled-components'
 
 export const CarouselContainer = styled.ul`
   max-width: 1040px;
-  background: #0F1624;
-  padding: 0rem;
+  /* background: #212D45; */
+  padding: 3rem;
   list-style:none;
+
   display: flex;
   justify-content: space-between; 
   /* overflow-x: hidden; */
@@ -40,9 +41,14 @@ export const CarouselMobileScrollNode = styled.div`
 `
 
 export const CarouselItem = styled.div`
-  background: #0F1624;
+  background: #212D45;
   border-radius: 3px;
-  max-width: 196px;
+  width: 196px;
+  height:150px;
+  margin: 1rem;
+  text-align:center;
+  border-radius: 1rem;
+  padding: 1rem;
 
   @media ${props => props.theme.breakpoints.md} {
     max-width: 124px;
@@ -50,7 +56,8 @@ export const CarouselItem = styled.div`
   
   @media ${props => props.theme.breakpoints.sm} {
     margin-left: 32px;
-    min-width: 120px;
+    min-width: 196px;
+    min-height:100px;
     background: #0E131F;
     padding: 4px;
     align-content: start;
